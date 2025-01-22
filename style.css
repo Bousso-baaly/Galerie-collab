@@ -2,35 +2,52 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 .navbar{
+    width: 100%;
     display: flex;
     background-color: rgb(101, 57, 57);
-    height: 15vh;
+    height: 150px;
 
 }
 
 .navbar .onglet ul {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     list-style: none;
+   color: white;
+   font-size: 1.8rem;
+   padding-top: 50px;
+} 
 
+.navbar .logo {
+    width: 10%;
+    height: 100%;
+}
+.logo .logo1{
+    width: 200px;
+    height: 150px;
+}
+.logo .logo1 img{
+    width: 100%;
+    height: 100%;
+}
+.navbar .onglet{
+    width: 90%;
+    height: 100%;
 }
 
-.navbar .logo img{
-    width: 250px;
-    margin-top: -20px;
-}
-.navbar .onglet ul{
+/* .navbar .onglet ul{
     display: flex;
     margin-left: 18vh;
    color: white;
    font-size: 2rem;
    gap: 10vh;
    margin-top: 7vh;
-   
-
-}
+} */
 
 .sect1{
     display: flex;
