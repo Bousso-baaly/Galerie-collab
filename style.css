@@ -3,6 +3,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 .navbar{
@@ -176,36 +177,36 @@ footer > p > a{
         align-items: center;
     }
     .grid1{
-        width: 300px;
-        height: 500px;
+        width: 400px;
+        height: 600px;
     }
     .grid2{
-        width: 300px;
-        height: 250px;
+        width: 400px;
+        height: 350px;
     }
     .grid3{
-        width: 300px;
-        height: 500px;
+        width: 400px;
+        height: 600px;
     }
     .grid4{
-        width: 300px;
-        height: 500px;
+        width: 400px;
+        height: 600px;
     }
     .grid5{
-        width: 300px;
-        height: 250px;
+        width: 400px;
+        height: 350px;
     }
     .grid6{
-        width: 300px;
-        height: 500px;
+        width: 400px;
+        height: 600px;
     }
     .grid7{
-        width: 300px;
-        height: 250px;
+        width: 400px;
+        height: 350px;
     }
     .grid8{
-        width: 300px;
-        height: 250px;
+        width: 400px;
+        height: 350px;
     }
 
 }
