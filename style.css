@@ -1,7 +1,37 @@
 *{
     margin: 0;
     padding: 0;
+    border: 0;
 }
+
+.navbar{
+    display: flex;
+    background-color: rgb(101, 57, 57);
+    height: 15vh;
+
+}
+
+.navbar .onglet ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.navbar .logo img{
+    width: 250px;
+    margin-top: -20px;
+}
+.navbar .onglet ul{
+    display: flex;
+    margin-left: 18vh;
+   color: white;
+   font-size: 2rem;
+   gap: 10vh;
+   margin-top: 7vh;
+   
+
+}
+
 .sect1{
     display: flex;
     flex-direction: column;
@@ -167,4 +197,4 @@ footer > p > a{
         width: 300px;
         height: 250px;
     }
-}
+
